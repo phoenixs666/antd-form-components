@@ -1,0 +1,60 @@
+.input {
+  flex: 1;
+  overflow: hidden;
+  font-size: 12px;
+  background: #f3f3f3;
+  border-radius: 4px;
+  :global {
+    .ant-input-affix-wrapper {
+      height: 26px;
+      padding: 4px 11px;
+      background: inherit;
+      border: 0;
+    }
+    .ant-input-number {
+      width: 100%;
+      height: 26px;
+      background: inherit;
+      border: 0;
+    }
+    .ant-input-number-input {
+      height: 26px;
+    }
+    .ant-input-group-addon {
+      padding: 0 4px;
+    }
+    .ant-input,
+    .ant-input-number-input {
+      height: 26px;
+      font-size: 12px;
+      background: inherit !important;
+      border: 0;
+    }
+  }
+}
+.inputLength {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 4px;
+  & > div {
+    border-radius: 0;
+  }
+  .lengthUnit {
+    height: 26px;
+    padding: 0 6px;
+    text-align: center;
+    background: #f3f3f3;
+    border-left: 1px solid #ddd;
+  }
+}
+.inputNumber {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  .inputNumberSlider {
+    min-width: 80px;
+    margin-left: 8px;
+  }
+}

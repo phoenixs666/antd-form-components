@@ -1,0 +1,27 @@
+.switch {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 26px;
+  padding: 0 4px;
+  font-size: 12px;
+  background: #f3f3f3;
+  border-radius: 4px;
+  .item {
+    z-index: 1;
+    color: #9e9e9e;
+    text-align: center;
+    cursor: pointer;
+  }
+  .itemActive {
+    color: #0099ff;
+  }
+  .slide {
+    position: absolute;
+    height: 20px;
+    background: #fff;
+    border-radius: 2px;
+    transition: left 0.2s;
+  }
+}
