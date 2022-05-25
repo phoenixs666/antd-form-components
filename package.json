@@ -30,9 +30,7 @@
     "classnames": "^2.3.1",
     "react-color": "^2.19.3",
     "@ant-design/icons": "^4.7.0",
-    "@phoenixs/fileupload": "^0.2.9"
-  },
-  "peerDependencies": {
+    "@phoenixs/fileupload": "^0.2.9",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "antd": "^4.20.5"
